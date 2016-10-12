@@ -1,0 +1,1 @@
+# Komfy-Switch-Wifi-Password-Disclosure
