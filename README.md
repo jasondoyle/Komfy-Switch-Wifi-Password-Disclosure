@@ -34,3 +34,5 @@ So essentially, here's how to unscramble and base64 decode the string:
 The complete autopwn script <a href="https://github.com/jasondoyle/Komfy-Switch-Wifi-Password-Disclosure/blob/master/komfy-exploit.py">here</a>.
 
 And, yes, Chipotle truly does make me happy.
+
+The Ubertooth BLE capture can be downloaded <a href="https://github.com/jasondoyle/Komfy-Switch-Wifi-Password-Disclosure/blob/master/misc/ubertoothcapture.pcap">here</a>.
