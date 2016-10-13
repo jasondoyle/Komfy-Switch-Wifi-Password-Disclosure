@@ -13,7 +13,7 @@ Some quick profiling of the BLE device was done with the LightBlue iOS app befor
 <img src="https://github.com/jasondoyle/Komfy-Switch-Wifi-Password-Disclosure/blob/master/screenshots/wifi-pass-asciihex.jpg">
 
 <b>The Komfy App: Tracing Method Calls</b><br />
-To better understand the GATT characteristics implemented by the Komfy device, I dumped the Komfy iOS app methods using class-dump-z and setup method tracing for methods of interest. The complete class dump can be referenced <a href="https://github.com/jasondoyle/Komfy-Switch-Wifi-Password-Disclosure/blob/master/BLEDevice.h">here</a>. I was particularly interested in the BLEDevice class along with any other methods referencing bluetooth. Method tracing can be setup using the Logify.pl perl script detailed by Prateek <a href="http://resources.infosecinstitute.com/ios-application-security-part-34-tracing-method-calls-using-logify/">here</a>. 
+To better understand the GATT characteristics implemented by the Komfy device, I dumped the Komfy iOS app methods using class-dump-z and setup method tracing for methods of interest. The complete class dump can be referenced <a href="https://github.com/jasondoyle/Komfy-Switch-Wifi-Password-Disclosure/blob/master/misc/BLEDevice.h">here</a>. I was particularly interested in the BLEDevice class along with any other methods referencing bluetooth. Method tracing can be setup using the Logify.pl perl script detailed by Prateek <a href="http://resources.infosecinstitute.com/ios-application-security-part-34-tracing-method-calls-using-logify/">here</a>. 
 
 <img src="https://github.com/jasondoyle/Komfy-Switch-Wifi-Password-Disclosure/blob/master/screenshots/trace.png">
 
