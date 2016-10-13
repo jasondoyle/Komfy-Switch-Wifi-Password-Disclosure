@@ -24,7 +24,7 @@ Now to reverse engineering the "base64" encoding scheme implemented by D-Link ("
 
 <img src="https://github.com/jasondoyle/Komfy-Switch-Wifi-Password-Disclosure/blob/master/screenshots/getwifipassword-arm.png">
 
-Going through the ARM assembly of +[Base64 decode:] looked pretty similar to the standard NSData class implementation so I hopped over to scan through +[Base64 encode:]. Hopper quickly tipped me off to the answer. A string constant was printed near one of the assmebly instructions which included all the letters of the standard base64 alphabet, but completely out of order. Slightly embarrased for not thinking of some trivial substitution no harder than the original caesar cipher, I wrote a script to unscramble the base64 characters and viola! "chipotlemakesmehappy" was printed on the screen. 
+Going through the ARM assembly of +[Base64 decode:] looked pretty similar to the standard NSData class implementation so I hopped over to scan through +[Base64 encode:]. Hopper quickly tipped me off to the answer. A string constant was printed near one of the assemebly instructions which included all the letters of the standard base64 alphabet, but completely out of order. Slightly embarrassed for not thinking of some trivial substitution no harder than the original caesar cipher, I wrote a script to unscramble the base64 characters and viola! "chipotlemakesmehappy" was printed on the screen. 
 
 <img src="https://github.com/jasondoyle/Komfy-Switch-Wifi-Password-Disclosure/blob/master/screenshots/base64encode-arm.png">
 
